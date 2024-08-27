@@ -8,7 +8,8 @@ state = {
 		victory_points = {
 			6626 3
 		}
-		owner = DCB
+		owner = null
+		
 		add_core_of = DCB
 		
 		buildings = {
