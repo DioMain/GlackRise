@@ -20,7 +20,7 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = fascism ##Рулевая партия
+	ruling_party = neutrality ##Рулевая партия
 	last_election = "1936.1.1" ##Последние выборы (если есть)
 	election_frequency = 48 ##Через сколько проводят выборы
 	elections_allowed = no ##Есть ли выборы
@@ -28,13 +28,13 @@ set_politics = {
 
 set_popularities = {
 	democratic = 25  ##Демократия
-	neutrality = 0 ##Нейтралитет
+	neutrality = 65 ##Нейтралитет
 	communism = 10 ##Коммунизм
-	fascism = 65 ##Фашизм
+	fascism = 0 ##Фашизм
 }
 
 create_country_leader = {
-    name = "Алексей Владимирович"
+    name = "Андрей Васильевич"
     desc = ""
     picture = "gfx/leaders/SankyFS.dds"
     expire = "2000.1.1"

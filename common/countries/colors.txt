@@ -55,3 +55,8 @@ TRK = {
 	color = rgb { 0 254 47 }
 	color_ui = rgb { 0 254 47 }
 }
+
+DCB = {
+	color = rgb { 235 156 53 }
+	color_ui = rgb { 235 156 53 }
+}
