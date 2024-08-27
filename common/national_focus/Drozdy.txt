@@ -6,144 +6,103 @@ focus_tree = {
 	default = no
 	reset_on_civilwar = no
 	focus = {
-		id = drozdy_focus_0
+		id = drozdy_focus_reborn
 		icon = GFX_focus_DEN_civilian_preparations
 		cost = 2
-		x = 5
+		x = 30
 		y = 1
 		completion_reward = {
 			country_event = {
 				id = DZD.up
+				random_hours = 12
 			}
 		}
 	}
 	focus = {
-		id = drozdy_focus_1
-		icon = GFX_focus_NOR_restore_public_trust_in_the_storting
-		relative_position_id = drozdy_focus_0
-		prerequisite = {
-			focus = drozdy_focus_0
-		}
-		cost = 2
+		id = drozdy_focus_newways
+		icon = GFX_focus_generic_treaty
+		relative_position_id = drozdy_focus_reborn
+		cost = 4
 		x = 0
 		y = 1
+		prerequisite = {
+			focus = drozdy_focus_reborn
+		}
 		completion_reward = {
 			add_stability = -0.05
-		}
-	}
-	focus = {
-		id = drozdy_focus_2a
-		icon = GFX_goal_generic_war_with_comintern
-		relative_position_id = drozdy_focus_1
-		prerequisite = {
-			focus = drozdy_focus_1
-		}
-		mutually_exclusive = {
-			focus = drozdy_focus_2b
-			focus = drozdy_focus_2c
-		}
-		cost = 4
-		x = 0
-		y = 2
-		completion_reward = {
-			add_popularity = {
-				ideology = communism
-				popularity = 0.5
+			country_event = {
+				id = DZD.vote
+				random_hours = 12
 			}
-			load_oob = DZD_COMFOC
 		}
 	}
 	focus = {
-		id = drozdy_focus_2b
-		icon = GFX_focus_usa_build_the_pentagon
-		relative_position_id = drozdy_focus_1
+		id = drozdy_focus_onmvd
+		icon = GFX_goal_molotov_ribbentrop_pact
+		relative_position_id = drozdy_focus_newways
+		cost = 3
+		x = -10
+		y = 1
 		prerequisite = {
-			focus = drozdy_focus_1
+			focus = drozdy_focus_newways
 		}
 		mutually_exclusive = {
-			focus = drozdy_focus_2a
-			focus = drozdy_focus_2c
+			focus = drozdy_focus_oncommuna
+			focus = drozdy_focus_onanime
 		}
-		cost = 4
-		x = -3
-		y = 2
 		completion_reward = {
 			add_popularity = {
 				ideology = fascism
-				popularity = 0.5
+				popularity = 0.3
+			}
+			set_politics = {
+				ruling_party = fascism
 			}
 		}
 	}
 	focus = {
-		id = drozdy_focus_2c
-		icon = GFX_focus_generic_japanese_imperial_glory
-		relative_position_id = drozdy_focus_1
+		id = drozdy_focus_oncommuna
+		icon = GFX_focus_generic_join_comintern
+		relative_position_id = drozdy_focus_newways
+		cost = 3
+		x = 0
+		y = 1
 		prerequisite = {
-			focus = drozdy_focus_1
+			focus = drozdy_focus_newways
 		}
 		mutually_exclusive = {
-			focus = drozdy_focus_2a
-			focus = drozdy_focus_2b
+			focus = drozdy_focus_onmvd
+			focus = drozdy_focus_onanime
 		}
-		cost = 4
-		x = 3
-		y = 2
+		completion_reward = {
+			add_popularity = {
+				ideology = communism
+				popularity = 0.15
+			}
+		}
+	}
+	focus = {
+		id = drozdy_focus_onanime
+		icon = GFX_focus_generic_japanese_imperial_glory
+		relative_position_id = drozdy_focus_newways
+		cost = 3
+		x = 10
+		y = 1
+		prerequisite = {
+			focus = drozdy_focus_newways
+		}
+		mutually_exclusive = {
+			focus = drozdy_focus_onmvd
+			focus = drozdy_focus_oncommuna
+		}
 		completion_reward = {
 			add_popularity = {
 				ideology = democratic
-				popularity = 0.5
+				popularity = 0.3
 			}
-		}
-	}
-	focus = {
-		id = drozdy_focus_3
-		icon = GFX_goal_generic_major_war
-		cost = 2
-		relative_position_id = drozdy_focus_2a
-		x = 0
-		y = 1
-		prerequisite = {
-			focus = drozdy_focus_2a
-		}
-		completion_reward = {
-			create_wargoal = {
-				target = STR
-				type = take_core_state
+			set_politics = {
+				ruling_party = democratic
 			}
-		}
-	}
-	focus = {
-		id = drozdy_focus_4
-		icon = GFX_goal_anschluss
-		cost = 2
-		relative_position_id = drozdy_focus_2b
-		x = 0
-		y = 1
-		available = {
-			has_government = fascism
-		}
-		prerequisite = {
-			focus = drozdy_focus_2b
-		}
-		completion_reward = {
-			set_cosmetic_tag = DZD_fascism_BEL
-		}
-	}
-	focus = {
-		id = drozdy_focus_5
-		icon = GFX_goal_continuous_increase_nu
-		cost = 2
-		relative_position_id = drozdy_focus_3
-		x = 0
-		y = 1
-		prerequisite = {
-			focus = drozdy_focus_3
-		}
-		completion_reward = {
-			add_state_core = 241
-			add_state_core = 224
-			add_state_core = 243
-			add_state_core = 205
 		}
 	}
 }

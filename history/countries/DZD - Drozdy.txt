@@ -12,9 +12,6 @@ set_technology = {
 
 set_politics = {
 	ruling_party = communism	##Рулевая партия
-	last_election = "1936.1.1"	##Последние выборы (если есть)
-	election_frequency = 48	##Через сколько проводят выборы
-	elections_allowed = no	##Есть ли выборы
 }
 
 set_popularities = {
