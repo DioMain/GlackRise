@@ -105,4 +105,49 @@ focus_tree = {
 			}
 		}
 	}
+	focus = {
+		id = drozdy_focus_lookat
+		icon = GFX_MAN_naval_bomber3_medium
+		cost = 6
+		relative_position_id = drozdy_focus_oncommuna
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = drozdy_focus_oncommuna
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = drozdy_focus_lookatwest
+		icon = GFX_MAN_naval_bomber3_medium
+		cost = 6
+		relative_position_id = drozdy_focus_lookat
+		x = -3
+		y = 1
+		prerequisite = {
+			focus = drozdy_focus_lookat
+		}
+		mutually_exclusive = {
+			focus = drozdy_focus_lookateast
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = drozdy_focus_lookateast
+		icon = GFX_MAN_naval_bomber3_medium
+		cost = 6
+		relative_position_id = drozdy_focus_lookat
+		x = 3
+		y = 1
+		prerequisite = {
+			focus = drozdy_focus_lookat
+		}
+		mutually_exclusive = {
+			focus = drozdy_focus_lookatwest
+		}
+		completion_reward = {
+		}
+	}
 }
