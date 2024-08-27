@@ -12,7 +12,8 @@ state={
 	}
 
 	history={
-		owner = DCB
+		owner = null
+
 		victory_points = {
 			9894 3
 		}

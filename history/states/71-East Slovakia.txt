@@ -8,7 +8,8 @@ state = {
 			3581
 			3
 		}
-		owner = NUL
+		owner = MGZ
+		
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 2

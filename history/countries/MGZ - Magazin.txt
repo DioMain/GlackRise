@@ -28,9 +28,9 @@ set_politics = {
 
 set_popularities = {
 	democratic = 65  ##Демократия
-	neutrality = 0 ##Нейтралитет
-	communism = 10 ##Коммунизм
-	fascism = 25 ##Фашизм
+	neutrality = 25 ##Нейтралитет
+	communism = 0 ##Коммунизм
+	fascism = 10 ##Фашизм
 }
 
 create_country_leader = {
@@ -38,7 +38,7 @@ create_country_leader = {
     desc = ""
     picture = "gfx/leaders/SankyFS.dds"
     expire = "2000.1.1"
-    ideology = fascism_ideology
+    ideology = liberalism
     traits = {
     }
 }
