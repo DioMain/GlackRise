@@ -47,6 +47,11 @@ MRN = {
 }
 
 MGZ = {
-	color = rgb { 0 0 254 }
-	color_ui = rgb { 0 0 254 }
+	color = rgb { 222 0 255 }
+	color_ui = rgb { 222 0 255 }
+}
+
+TRK = {
+	color = rgb { 0 254 47 }
+	color_ui = rgb { 0 254 47 }
 }
