@@ -12,5 +12,5 @@ tags={
 replace_path="history/countries"
 replace_path="events"
 name="GlackRise"
-supported_version="1.14.4"
+supported_version="1.14.*"
 path="mod/GlackRise"

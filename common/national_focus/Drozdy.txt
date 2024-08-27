@@ -127,7 +127,6 @@ focus_tree = {
 		}
 		completion_reward = {
 			set_cosmetic_tag = DZD_fascism_BEL
-			set_
 		}
 	}
 	focus = {
