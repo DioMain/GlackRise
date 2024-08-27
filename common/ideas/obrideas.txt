@@ -7,7 +7,7 @@ ideas = {
 				original_tag = OBR
 			}
 			modifier = {
-				opinion_gain_monthly_same_ideology_factor = -0.05
+				master_ideology_drift = -0.05
 				boost_ideology_mission_factor = 0.1
 				army_attack_factor = 0.1
 			}
