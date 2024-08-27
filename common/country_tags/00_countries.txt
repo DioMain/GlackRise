@@ -1,4 +1,3 @@
-
 DZD = "countries/Drozdy.txt"
 STR = "countries/StariySver.txt"
 OBR = "countries/OboronInitiativ.txt"

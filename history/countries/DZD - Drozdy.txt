@@ -10,7 +10,6 @@ set_technology = {
 	tech_trucks = 1
 }
 
-recruit_character = DZD_Urii_Zenonavich
 set_politics = {
 	ruling_party = communism	##Рулевая партия
 	last_election = "1936.1.1"	##Последние выборы (если есть)
