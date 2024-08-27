@@ -1,0 +1,26 @@
+leader_traits = {
+	paket = {
+		random = no
+
+		research_speed_factor = -0.05
+	}
+
+	Tialpuk = {
+		random = no
+
+		army_attack_factor = 0.1
+		army_defence_factor = 0.1
+	}
+
+	Hartonovich = {
+		random = no
+
+		army_speed_factor = 0.2
+	}
+
+	Hariton = {
+		random = no
+
+		research_speed_factor = 0.15
+	}
+}

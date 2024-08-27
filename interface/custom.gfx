@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = GFX_DZD_CH_YRII_ZENONAVICH
+		texturefile = gfx/leaders/Okulich.dds
+	}
+}

@@ -1,0 +1,53 @@
+capital = 2 ##Наша столица
+
+set_research_slots = 4 #Количество ячеек исследования
+
+# Технологии, какие будут открыты при старте
+set_technology = {
+	atomic_research = 1
+	motorised_infantry = 1
+	tech_trucks = 1
+	basic_train = 1
+	basic_machine_tools = 1
+	improved_machine_tools = 1
+	advanced_machine_tools = 1
+	construction1 = 1
+	construction2 = 1
+	excavation1 = 1
+	excavation2 = 1
+	fuel_silos = 1
+	synth_oil_experiments = 1
+	fuel_refining = 1
+	fuel_refining2 = 1
+	electronic_mechanical_engineering = 1
+	mechanical_computing = 1
+	basic_fire_control_system = 1
+	radio = 1
+	radio_detection = 1
+	decimetric_radar = 1
+}
+
+set_politics = {
+	ruling_party = democratic ##Рулевая партия
+	last_election = "1934.1.1" ##Последние выборы (если есть)
+	election_frequency = 96 ##Через сколько проводят выборы
+	elections_allowed = no ##Есть ли выборы
+}
+
+set_popularities = {
+	democratic = 70  ##Демократия
+	neutrality = 0 ##Нейтралитет
+	communism = 5 ##Коммунизм
+	fascism = 25 ##Фашизм
+}
+
+create_country_leader = {
+    name = "Рудович"
+    desc = ""
+    picture = "gfx/leaders/Rudovich.dds"
+    expire = "2024.1.1"
+    ideology = nauka
+    traits = {
+        #
+    }
+}

@@ -1,0 +1,62 @@
+﻿l_russian:
+ DZD: "Дрозды"
+ DZD_DEF: "Дрозды"
+ DZD_ADJ: "Дроздовск"
+ DZD_communism: "Дроздовская коммуна"
+ DZD_communism_DEF: "Дроздовская коммуна"
+ DZD_communism_ADJ: "Дроздовск"
+ DZD_fascism: "МВД"
+ DZD_fascism_DEF: "МВД"
+ DZD_fascism_ADJ: "МВДск"
+ DZD_democratic: "Дрокио"
+ DZD_democratic_DEF: "Дрокио"
+ DZD_democratic_ADJ: "Дрокиск"
+ 
+ STR_communism: "Старо-сверженский союз"
+ STR_communism_DEF: "Старо-сверженский союз"
+ STR_communism_ADJ: "Старо-сверженск"
+ STR: "Старый-свержень"
+ STR_DEF: "Старый-свержень"
+ STR_ADJ: "Старый-сверженьск"
+
+ OBR_fascism: "Оборонная инициатива Никиты"
+ OBR_fascism_DEF: "Оборонная инициатива Никиты"
+ OBR_fascism_ADJ: "Никитинск"
+ OBR: "Оборонная инициатива"
+ OBR_DEF: "Оборонная инициатива"
+ OBR_ADJ: "Оборонницк"
+
+ BST: "Незовисимая БГТУ"
+ BST_DEF: "Незовисимая БГТУ"
+ BST_ADJ: "БГТУ-ск"
+ 
+ ZDY_communism: "Крепкие саньки"
+ ZDY_communism_DEF: "Крепкие саньки"
+ ZDY_communism_ADJ: "Саньковск"
+ ZDY: "Джуманджик"
+ ZDY_DEF: "Джуманджик"
+ ZDY_ADJ: "Джуманск"
+
+ DKG: "Даньков каганат"
+ DKG_DEF: "Даньков каганат"
+ DKG_ADJ: "Даньковск"
+
+ TRK: "Тракторное каролевство"
+ TRK_DEF: "Тракторное королевство"
+ TRK_ADJ: "Тракторск"
+
+ SNC: "Научная республика"
+ SNC_DEF: "Научная республика"
+ SNC_ADJ: "Республиканск"
+
+ FIT: "Великий ФИТ"
+ FIT_DEF: "Великий ФИТ"
+ FIT_ADJ: "ФИТ-ск"
+
+ BLD: "Белый фронт"
+ BLD_DEF: "Белый фронт"
+ BLD_ADJ: "Белодедовск"
+
+ MRN: "Республика Мироен" 
+ MRN_DEF: "Республика Мироен" 
+ MRN_ADJ: "Мироенск" 

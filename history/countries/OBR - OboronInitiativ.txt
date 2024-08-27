@@ -1,0 +1,72 @@
+capital = 5##Наша столица
+set_research_slots = 3#Количество ячеек исследования
+# Технологии, какие будут открыты при старте
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	infantry_weapons2 = 1
+	tech_support = 1
+	tech_trucks = 1
+}
+
+set_politics = {
+	ruling_party = fascism	##Рулевая партия
+	last_election = "1936.1.1"	##Последние выборы (если есть)
+	election_frequency = 48	##Через сколько проводят выборы
+	elections_allowed = no	##Есть ли выборы
+}
+
+set_popularities = {
+	democratic = 10	##Демократия
+	neutrality = 10	##Нейтралитет
+	communism = 15	##Коммунизм
+	fascism = 65	##Фашизм
+}
+
+add_ideas = {
+	obrnikitabipolarka_idea
+}
+
+create_country_leader = {
+	name = "Никита Тильпук"
+	desc = ""
+	picture = "gfx/leaders/NekitF.dds"
+	expire = "2000.1.1"
+	ideology = fascism_ideology
+	traits = {
+		Tialpuk
+	}
+}
+
+create_country_leader = {
+	name = "Никита Хартанович"
+	desc = ""
+	picture = "gfx/leaders/NekitC.dds"
+	expire = "2000.1.1"
+	ideology = leninism
+	traits = {
+		Hartonovich
+	}
+}
+
+create_country_leader = {
+	name = "Харитон"
+	desc = ""
+	picture = "gfx/leaders/NekitN.dds"
+	expire = "2000.1.1"
+	ideology = populism
+	traits = {
+		Hariton
+	}
+}
+
+create_country_leader = {
+	name = "Харитон"
+	desc = ""
+	picture = "gfx/leaders/NekitN.dds"
+	expire = "2000.1.1"
+	ideology = centrism
+	traits = {
+		Hariton
+	}
+}

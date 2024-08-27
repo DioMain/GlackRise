@@ -1,0 +1,145 @@
+focus_tree = {
+	id = drozdy_focus
+	country = {
+		factor = 0
+	}
+	default = no
+	reset_on_civilwar = no
+	focus = {
+		id = drozdy_focus_0
+		icon = GFX_focus_DEN_civilian_preparations
+		cost = 2
+		x = 5
+		y = 1
+		completion_reward = {
+			country_event = {
+				id = DZD.up
+			}
+		}
+	}
+	focus = {
+		id = drozdy_focus_1
+		icon = GFX_focus_NOR_restore_public_trust_in_the_storting
+		relative_position_id = drozdy_focus_0
+		prerequisite = {
+			focus = drozdy_focus_0
+		}
+		cost = 2
+		x = 0
+		y = 1
+		completion_reward = {
+			add_stability = -0.05
+		}
+	}
+	focus = {
+		id = drozdy_focus_2a
+		icon = GFX_goal_generic_war_with_comintern
+		relative_position_id = drozdy_focus_1
+		prerequisite = {
+			focus = drozdy_focus_1
+		}
+		mutually_exclusive = {
+			focus = drozdy_focus_2b
+			focus = drozdy_focus_2c
+		}
+		cost = 4
+		x = 0
+		y = 2
+		completion_reward = {
+			add_popularity = {
+				ideology = communism
+				popularity = 0.5
+			}
+			load_oob = DZD_COMFOC
+		}
+	}
+	focus = {
+		id = drozdy_focus_2b
+		icon = GFX_focus_usa_build_the_pentagon
+		relative_position_id = drozdy_focus_1
+		prerequisite = {
+			focus = drozdy_focus_1
+		}
+		mutually_exclusive = {
+			focus = drozdy_focus_2a
+			focus = drozdy_focus_2c
+		}
+		cost = 4
+		x = -3
+		y = 2
+		completion_reward = {
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.5
+			}
+		}
+	}
+	focus = {
+		id = drozdy_focus_2c
+		icon = GFX_focus_generic_japanese_imperial_glory
+		relative_position_id = drozdy_focus_1
+		prerequisite = {
+			focus = drozdy_focus_1
+		}
+		mutually_exclusive = {
+			focus = drozdy_focus_2a
+			focus = drozdy_focus_2b
+		}
+		cost = 4
+		x = 3
+		y = 2
+		completion_reward = {
+			add_popularity = {
+				ideology = democratic
+				popularity = 0.5
+			}
+		}
+	}
+	focus = {
+		id = drozdy_focus_3
+		icon = GFX_goal_generic_major_war
+		cost = 2
+		relative_position_id = drozdy_focus_2a
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = drozdy_focus_2a
+		}
+		completion_reward = {
+			create_wargoal = {
+				target = STR
+				type = take_core_state
+			}
+		}
+	}
+	focus = {
+		id = drozdy_focus_4
+		icon = GFX_goal_anschluss
+		cost = 2
+		relative_position_id = drozdy_focus_2b
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = drozdy_focus_2b
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = drozdy_focus_5
+		icon = GFX_goal_continuous_increase_nu
+		cost = 2
+		relative_position_id = drozdy_focus_3
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = drozdy_focus_3
+		}
+		completion_reward = {
+			add_state_core = 241
+			add_state_core = 224
+			add_state_core = 243
+			add_state_core = 205
+		}
+	}
+}

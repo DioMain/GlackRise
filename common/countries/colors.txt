@@ -1,0 +1,47 @@
+# SSD COLORS
+DZD = {
+	color = rgb { 204 156 59 }
+	color_ui = rgb { 227 174 66 }
+}
+STR = {
+	color = rgb { 184 146 59 }
+	color_ui = rgb { 224 199 72 }
+}
+OBR = {
+	color = rgb { 212 44 44 }
+	color_ui = rgb { 180 30 30 }
+}
+
+BST = {
+	color = rgb { 199 199 199 }
+	color_ui = rgb { 145 145 145 }
+}
+ZDY = {
+	color = rgb { 201 119 60 }
+	color_ui = rgb { 176 104 53 }
+}
+DKG = {
+	color = rgb { 135 222 189 }
+	color_ui = rgb { 115 189 161 }
+}
+TRK = {
+	color = rgb { 86 209 90 }
+	color_ui = rgb { 86 209 90 }
+}
+SNC = {
+	color = rgb { 57 54 224 }
+	color_ui = rgb { 57 54 224 }
+}
+FIT = {
+	color = rgb { 150 150 150 }
+	color_ui = rgb { 130 130 130 }
+}
+BLD = {
+	color = rgb { 230 199 199 }
+	color_ui = rgb { 230 180 180 }
+}
+
+MRN = {
+	color = rgb { 3 165 252 }
+	color_ui = rgb { 3 165 252 }
+}

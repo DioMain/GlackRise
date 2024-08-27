@@ -1,0 +1,21 @@
+characters = {
+	DZD_Urii_Zenonavich = {
+		name = DZD_Urii_Zenonavich
+		portraits = {
+			army = {
+				small = GFX_DZD_CH_YRII_ZENONAVICH
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = uriizen
+			cost = 100
+			allowed = {
+				original_tag = DZD
+			}
+			traits = {
+				fascist_council_trait
+			}
+		}
+	}
+}

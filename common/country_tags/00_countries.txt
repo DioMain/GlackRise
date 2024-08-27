@@ -1,0 +1,13 @@
+
+DZD = "countries/Drozdy.txt"
+STR = "countries/StariySver.txt"
+OBR = "countries/OboronInitiativ.txt"
+ZDY = "countries/Zdymanzik.txt"
+BST = "countries/BSTU.txt"
+ZDY = "countries/Zdymanzik.txt"
+DKG = "countries/DanyaKag.txt"
+TRK = "countries/Traktor.txt"
+SNC = "countries/snc.txt"
+FIT = "countries/thegreatfit.txt"
+BLD = "countries/belodead.txt"
+MRN = "countries/Miruen.txt"

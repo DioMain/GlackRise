@@ -1,0 +1,16 @@
+ideas = {
+	country = {
+		obrnikitabipolarka_idea = {
+			removal_cost = -1
+			picture = generic_neutrality_drift_bonus
+			allowed = {
+				original_tag = OBR
+			}
+			modifier = {
+				opinion_gain_monthly_same_ideology_factor = -0.05
+				boost_ideology_mission_factor = 0.1
+				army_attack_factor = 0.1
+			}
+		}
+	}
+}
