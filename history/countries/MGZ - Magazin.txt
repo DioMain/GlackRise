@@ -1,0 +1,45 @@
+capital = 5 ##Наша столица
+
+set_research_slots = 2 #Количество ячеек исследования
+
+# Технологии, какие будут открыты при старте
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	infantry_weapons2 = 1
+	motorised_infantry = 1
+	paratroopers = 1
+	gw_artillery = 1
+	early_fighter = 1
+	fighter1 = 1
+	early_bomber = 1
+	strategic_bomber1 = 1
+	naval_bomber1 = 1
+	mass_assault = 1
+	fleet_in_being = 1
+}
+
+set_politics = {
+	ruling_party = democratic ##Рулевая партия
+	last_election = "1936.1.1" ##Последние выборы (если есть)
+	election_frequency = 48 ##Через сколько проводят выборы
+	elections_allowed = no ##Есть ли выборы
+}
+
+set_popularities = {
+	democratic = 65  ##Демократия
+	neutrality = 0 ##Нейтралитет
+	communism = 10 ##Коммунизм
+	fascism = 25 ##Фашизм
+}
+
+create_country_leader = {
+    name = "Кирилл Андреевич"
+    desc = ""
+    picture = "gfx/leaders/SankyFS.dds"
+    expire = "2000.1.1"
+    ideology = fascism_ideology
+    traits = {
+    }
+}
+
