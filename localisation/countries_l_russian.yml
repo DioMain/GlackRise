@@ -11,6 +11,9 @@
  DZD_democratic: "Дрокио"
  DZD_democratic_DEF: "Дрокио"
  DZD_democratic_ADJ: "Дрокиск"
+ DZD_fascism_BEL: "Республика беларусь"
+ DZD_fascism_BEL_DEF: "Республика беларусь"
+ DZD_fascism_BEL_ADJ: "Беларуск"
  
  STR_communism: "Старо-сверженский союз"
  STR_communism_DEF: "Старо-сверженский союз"
@@ -20,11 +23,8 @@
  STR_ADJ: "Старый-сверженьск"
 
  OBR_fascism: "Оборонная инициатива Никиты"
- OBR_fascism_DEF: "Оборонная инициатива Никиты"
- OBR_fascism_ADJ: "Никитинск"
- OBR: "Оборонная инициатива"
- OBR_DEF: "Оборонная инициатива"
- OBR_ADJ: "Оборонницк"
+ OBR_fascism: "Оборонная инициатива Никиты"
+ OBR_fascism: "Никитинск"
 
  BST: "Незовисимая БГТУ"
  BST_DEF: "Незовисимая БГТУ"
