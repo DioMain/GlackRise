@@ -107,7 +107,7 @@ focus_tree = {
 	}
 	focus = {
 		id = drozdy_focus_lookat
-		icon = GFX_MAN_naval_bomber3_medium
+		icon = GFX_SOV_call_for_aid_ccp_2d_sov_compatibility
 		cost = 6
 		relative_position_id = drozdy_focus_oncommuna
 		x = 0
@@ -120,7 +120,7 @@ focus_tree = {
 	}
 	focus = {
 		id = drozdy_focus_lookatwest
-		icon = GFX_MAN_naval_bomber3_medium
+		icon = GFX_goal_generic_navy_battleship
 		cost = 6
 		relative_position_id = drozdy_focus_lookat
 		x = -3
@@ -136,7 +136,7 @@ focus_tree = {
 	}
 	focus = {
 		id = drozdy_focus_lookateast
-		icon = GFX_MAN_naval_bomber3_medium
+		icon = GFX_SOV_a_new_theory_of_revolution_ccp_2d_sov_compatibility
 		cost = 6
 		relative_position_id = drozdy_focus_lookat
 		x = 3
