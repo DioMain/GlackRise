@@ -12,10 +12,6 @@ OBR = {
 	color_ui = rgb { 180 30 30 }
 }
 
-BST = {
-	color = rgb { 199 199 199 }
-	color_ui = rgb { 145 145 145 }
-}
 ZDY = {
 	color = rgb { 201 119 60 }
 	color_ui = rgb { 176 104 53 }
@@ -31,14 +27,6 @@ TRK = {
 SNC = {
 	color = rgb { 57 54 224 }
 	color_ui = rgb { 57 54 224 }
-}
-FIT = {
-	color = rgb { 150 150 150 }
-	color_ui = rgb { 130 130 130 }
-}
-BLD = {
-	color = rgb { 230 199 199 }
-	color_ui = rgb { 230 180 180 }
 }
 
 MRN = {
