@@ -13,7 +13,7 @@ focus_tree = {
 		y = 1
 		completion_reward = {
 			country_event = {
-				id = DZD.up
+				id = DZD.1
 				random_hours = 12
 			}
 		}
@@ -31,7 +31,7 @@ focus_tree = {
 		completion_reward = {
 			add_stability = -0.05
 			country_event = {
-				id = DZD.vote
+				id = DZD.2
 				random_hours = 12
 			}
 		}
