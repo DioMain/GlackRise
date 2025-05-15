@@ -1,8 +1,8 @@
 
 state = {
 	id = 204
-	name = "STATE_204" # Bobruysk
-	manpower = 1041084
+	name = "STATE_204" # Stobwtsy
+	manpower = 723512
 	
 	state_category = rural
 
@@ -13,21 +13,21 @@ state = {
 
 	history = {
 
-		victory_points = {
-			3350 8
+		victory_points = { ## Бобруйск
+			3350 10
 		}
-
 		owner = DZD
 
 		buildings = {
-			infrastructure = 3 #was: 5
+			infrastructure = 3
+			naval_facility = 2
 		}
 
 		add_core_of = DZD
 	}
 
 	provinces = {
-		304 331 360 386 3350 3759 6373 11313 
+		331 386 3350 6373  
 	}
 
 	local_supplies = 0.0 

@@ -15,7 +15,7 @@ state={
 	}
 
 	history={
-		owner = DZD
+		owner = OBR
 		victory_points = {
 			11370 20
 		}
@@ -23,15 +23,15 @@ state={
 			9289 5
 		}
 		buildings = {
-			infrastructure = 3 #was: 5
-			industrial_complex = 5
-			air_base = 8
+			infrastructure = 4
+			industrial_complex = 1
+			air_base = 2
 		}
-		add_core_of = DZD
+		add_core_of = OBR
 	}
 
 	provinces={
-		216 294 342 3267 3378 6292 9289 11216 11322 11370 
+		216 294 342 3267 3378 6292 9289 11322 11370 
 	}
 
 	local_supplies=5.0 

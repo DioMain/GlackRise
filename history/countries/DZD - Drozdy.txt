@@ -1,7 +1,9 @@
-capital = 5##Наша столица
-set_research_slots = 3#Количество ячеек исследования
+capital = 1017
+
+set_research_slots = 3
+
 load_focus_tree = drozdy_focus
-# Технологии, какие будут открыты при старте
+
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
@@ -11,14 +13,14 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = communism	##Рулевая партия
+	ruling_party = communism
 }
 
 set_popularities = {
-	democratic = 25	##Демократия
-	neutrality = 0	##Нейтралитет
-	communism = 50	##Коммунизм
-	fascism = 25	##Фашизм
+	democratic = 25
+	neutrality = 0
+	communism = 50
+	fascism = 25
 }
 
 create_country_leader = {
@@ -27,9 +29,6 @@ create_country_leader = {
 	picture = "gfx/leaders/Okulich.dds"
 	expire = "1965.1.1"
 	ideology = marxism
-	traits = {
-		#
-	}
 }
 
 create_country_leader = {
@@ -38,9 +37,6 @@ create_country_leader = {
 	picture = "gfx/leaders/Okulich.dds"
 	expire = "1965.1.1"
 	ideology = mvd
-	traits = {
-		#
-	}
 }
 
 create_country_leader = {
@@ -49,7 +45,4 @@ create_country_leader = {
 	picture = "gfx/leaders/Okulich.dds"
 	expire = "1965.1.1"
 	ideology = anime
-	traits = {
-		#
-	}
 }

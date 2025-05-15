@@ -107,7 +107,7 @@ focus_tree = {
 	}
 	focus = {
 		id = drozdy_focus_lookat
-		icon = GFX_SOV_call_for_aid_ccp_2d_sov_compatibility
+		icon = GFX_SOV_pacify_the_rim_ccp_2d_sov_compatibility
 		cost = 6
 		relative_position_id = drozdy_focus_oncommuna
 		x = 0
@@ -136,7 +136,7 @@ focus_tree = {
 	}
 	focus = {
 		id = drozdy_focus_lookateast
-		icon = GFX_SOV_a_new_theory_of_revolution_ccp_2d_sov_compatibility
+		icon = GFX_SOV_beaten_but_not_defeated_ccp_2d_sov_compatibility
 		cost = 6
 		relative_position_id = drozdy_focus_lookat
 		x = 3
