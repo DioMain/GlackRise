@@ -1,11 +1,40 @@
 ﻿l_russian:
+  #DZD
   drozdy_focus_reborn: "Востать с пепла"
-  drozdy_focus_reborn_desc: "Это были тежелые времена"
+  drozdy_focus_reborn_desc: "Это были тежелые времена."
+
   drozdy_focus_newways: "Пора избрать новый путь"
   drozdy_focus_newways_desc: "МВД, Коммуна или анимешники?"
+
   drozdy_focus_onmvd: "Ставка на МВД"
-  drozdy_focus_onmvd_desc: "Только твёрдая рука МВД сможет создать сильную нацию"
+  drozdy_focus_onmvd_desc: "Только твёрдая рука МВД сможет создать сильную нацию."
+
   drozdy_focus_oncommuna: "Ставка на коммуну"
-  drozdy_focus_oncommuna_desc: "Текущий расклад дел вполне подходит"
+  drozdy_focus_oncommuna_desc: "Текущий расклад дел вполне подходит."
+
   drozdy_focus_onanime: "Ставка на аниме"
   drozdy_focus_onanime_desc: "Анимешников у нас слишком много пора признать их власть!"
+
+  drozdy_focus_lookat: "На распутье"
+  drozdy_focus_lookat_desc: "На одной чаше весов старые партнёры на востоке которые не смотря на разнагласия помогли нам, а на другой чаше весов новые перспективные заподные партнёры которые могут принести нам значительный профит."
+
+  drozdy_focus_lookatwest: "Взляд на запад"
+  drozdy_focus_lookatwest_desc: "Пора открыть новые невиданные рание просторы. Хотят они этого или нет."
+
+  drozdy_focus_lookateast: "Взляд на восток"
+  drozdy_focus_lookateast_desc: "Старый друг лучше новых двух. Верно?"
+
+  drozdy_focus_restore_belarus: "Востановить беларусь"
+  drozdy_focus_restore_belarus_desc: "Самое время воставить Республику Беларусь"
+
+  drozdy_focus_restore_mvd_forces: "Востановить МВД"
+  drozdy_focus_restore_mvd_forces_desc: "Поднимаем всех бывшых сотрудников МВД для востановление теритариальной целостности Беларуси"
+
+  drozdy_focus_request_mozyr: "Требовать Мозыр"
+  drozdy_focus_request_mozyr_desc: "Мозый всегда был частью Беларуси, а сейчас нейки Дайньков кагонад его окупировал. Так дело не пойдёт!"
+
+  drozdy_focus_request_gomel: "Требовать Гомель"
+  drozdy_focus_request_gomel_desc: "Не смотря на то что Старый-Свержень был нашим союзником мы не можем закрыть глаза на то что Гомель на ходится в их составе. Нужно не медленно потребовать его назад!"
+
+  drozdy_focus_nikitas_ultimatum: "Ультиматум Никите"
+  drozdy_focus_nikitas_ultimatum_desc: "Остались ключевые регионы Беларуси находящиеся в руках Никиты. Он безумен так что лучше готовится к войне..."

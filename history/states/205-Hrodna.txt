@@ -10,6 +10,8 @@ state={
 		owner = STR
 		buildings = {
 			infrastructure = 3 #was: 5
+			arms_factory = 3
+			industrial_complex =  3
 		}
 		add_core_of = STR
 		victory_points = {

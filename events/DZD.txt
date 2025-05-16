@@ -1,4 +1,6 @@
 add_namespace = DZD
+
+# востание
 country_event = {
 	id = DZD.1
 	title = DZD.1.t
@@ -11,6 +13,7 @@ country_event = {
 		add_political_power = 100
 	}
 }
+# новый путь
 country_event = {
 	id = DZD.2
 	title = DZD.2.t
@@ -19,5 +22,64 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = DZD.2.a
+	}
+}
+# не признаное насиление в беластоке
+country_event = {
+	id = DZD.3
+	title = DZD.3.t
+	desc = DZD.3.d
+	picture = GFX_report_event_sanation_revolt
+	is_triggered_only = yes
+	option = {
+		name = DZD.3.a
+
+		remove_state_core = 97
+	}
+}
+# Требовать Гомель
+country_event = {
+	id = DZD.4
+	title = DZD.4.t
+	is_triggered_only = yes
+	option = {
+		name = DZD.4.a
+		DZD = {
+			country_event = {
+				id = DZD.5
+				days = 2
+			}
+		}
+	}
+	option = {
+		name = DZD.4.b
+		DZD = {
+			country_event = {
+				id = DZD.6
+				days = 2
+			}
+		}
+	}
+}
+# Требовать Гомель (Отказ)
+country_event = {
+	id = DZD.5
+	title = DZD.5.t
+	is_triggered_only = yes
+	option = {
+		name = DZD.5.a
+		add_state_claim = 241
+	}
+}
+# Требовать Гомель (Принятие)
+country_event = {
+	id = DZD.6
+	title = DZD.6.t
+	is_triggered_only = yes
+	option = {
+		name = DZD.6.a
+		241 = {
+			set_state_controller_to = DZD
+		}
 	}
 }

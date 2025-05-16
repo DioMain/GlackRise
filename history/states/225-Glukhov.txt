@@ -19,6 +19,8 @@ state={
 		}
 		add_core_of = DKG
 		add_core_of = ZDY
+
+		set_demilitarized_zone = yes
 	}
 
 	provinces={

@@ -22,7 +22,6 @@ state={
 		owner = DZD
 
 		add_core_of = DZD
-
 	}
 
 	provinces={
