@@ -1,0 +1,344 @@
+focus_tree = {
+	id = drozdy_focus
+	country = {
+		factor = 0
+	}
+	default = no
+	reset_on_civilwar = no
+	focus = {
+		id = drozdy_focus_reborn
+		icon = GFX_focus_DEN_civilian_preparations
+		cost = 2
+		x = 30
+		y = 1
+		completion_reward = {
+			country_event = {
+				id = DZD.1
+				random_hours = 12
+			}
+		}
+	}
+	focus = {
+		id = drozdy_focus_newways
+		icon = GFX_focus_generic_treaty
+		relative_position_id = drozdy_focus_reborn
+		cost = 4
+		x = 0
+		y = 3
+		prerequisite = {
+			focus = drozdy_focus_reborn
+		}
+		completion_reward = {
+			add_stability = -0.05
+			country_event = {
+				id = DZD.2
+				random_hours = 12
+			}
+		}
+	}
+	focus = {
+		id = drozdy_focus_onmvd
+		icon = GFX_goal_molotov_ribbentrop_pact
+		relative_position_id = drozdy_focus_newways
+		cost = 3
+		x = -10
+		y = 1
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = drozdy_focus_newways
+		}
+		mutually_exclusive = {
+			focus = drozdy_focus_oncommuna
+			focus = drozdy_focus_onanime
+		}
+		completion_reward = {
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.3
+			}
+			set_politics = {
+				ruling_party = fascism
+			}
+		}
+	}
+	focus = {
+		id = drozdy_focus_oncommuna
+		icon = GFX_focus_generic_join_comintern
+		relative_position_id = drozdy_focus_newways
+		cost = 3
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = drozdy_focus_newways
+		}
+		mutually_exclusive = {
+			focus = drozdy_focus_onmvd
+			focus = drozdy_focus_onanime
+		}
+		completion_reward = {
+			add_popularity = {
+				ideology = communism
+				popularity = 0.15
+			}
+		}
+	}
+	focus = {
+		id = drozdy_focus_onanime
+		icon = GFX_focus_generic_japanese_imperial_glory
+		relative_position_id = drozdy_focus_newways
+		cost = 3
+		x = 10
+		y = 1
+		prerequisite = {
+			focus = drozdy_focus_newways
+		}
+		mutually_exclusive = {
+			focus = drozdy_focus_onmvd
+			focus = drozdy_focus_oncommuna
+		}
+		completion_reward = {
+			add_popularity = {
+				ideology = democratic
+				popularity = 0.3
+			}
+			set_politics = {
+				ruling_party = democratic
+			}
+		}
+	}
+	focus = {
+		id = drozdy_focus_lookat
+		icon = GFX_SOV_pacify_the_rim_ccp_2d_sov_compatibility
+		cost = 4
+		relative_position_id = drozdy_focus_oncommuna
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = drozdy_focus_oncommuna
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = drozdy_focus_lookatwest
+		icon = GFX_goal_generic_navy_battleship
+		cost = 5
+		relative_position_id = drozdy_focus_lookat
+		x = -3
+		y = 1
+		prerequisite = {
+			focus = drozdy_focus_lookat
+		}
+		mutually_exclusive = {
+			focus = drozdy_focus_lookateast
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = drozdy_focus_lookateast
+		icon = GFX_goal_generic_war_with_comintern
+		cost = 5
+		relative_position_id = drozdy_focus_lookat
+		x = 3
+		y = 1
+		prerequisite = {
+			focus = drozdy_focus_lookat
+		}
+		mutually_exclusive = {
+			focus = drozdy_focus_lookatwest
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = drozdy_focus_gleak_union
+		icon = GFX_focus_usa_union_representation_act
+		cost = 7
+		relative_position_id = drozdy_focus_lookateast
+		x = 2
+		y = 1
+		prerequisite = {
+			focus = drozdy_focus_lookateast
+		}
+		mutually_exclusive = {
+			focus = drozdy_focus_gleak_peace_colaboration
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = drozdy_focus_gleak_peace_colaboration
+		icon = GFX_SOV_call_for_aid_ccp_2d_sov_compatibility
+		cost = 7
+		relative_position_id = drozdy_focus_lookateast
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = drozdy_focus_lookateast
+		}
+		mutually_exclusive = {
+			focus = drozdy_focus_gleak_union
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = drozdy_focus_restore_belarus
+		icon = GFX_SOV_carry_revolution_east_ccp_2d_sov_compatibility
+		cost = 4
+		relative_position_id = drozdy_focus_onmvd
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = drozdy_focus_onmvd
+		}
+		completion_reward = {
+			add_ideas = restorebelarus_idea
+			country_event = {
+				id = DZD.3
+			}
+		}
+	}
+	focus = {
+		id = drozdy_focus_restore_mvd_forces
+		icon = GFX_SOV_muster_the_old_guard_ccp_2d_sov_compatibility
+		cost = 8
+		relative_position_id = drozdy_focus_restore_belarus
+		x = -4
+		y = 1
+		prerequisite = {
+			focus = drozdy_focus_restore_belarus
+		}
+		completion_reward = {
+			load_oob = DZD_MVCARMY
+		}
+	}
+	focus = {
+		id = drozdy_focus_request_mozyr
+		icon = GFX_goal_generic_occupy_states_ongoing_war
+		cost = 6
+		relative_position_id = drozdy_focus_restore_belarus
+		x = -2
+		y = 1
+		prerequisite = {
+			focus = drozdy_focus_restore_belarus
+		}
+		completion_reward = {
+			add_state_core = 194
+			every_country = {
+				limit = {
+					controls_state = 194
+				}
+				country_event = {
+					id = DZD.7
+				}
+			}
+		}
+	}
+	focus = {
+		id = drozdy_focus_request_gomel
+		icon = GFX_goal_generic_occupy_states_ongoing_war
+		cost = 8
+		relative_position_id = drozdy_focus_restore_belarus
+		x = 2
+		y = 1
+		prerequisite = {
+			focus = drozdy_focus_restore_belarus
+		}
+		completion_reward = {
+			add_state_core = 241
+			every_country = {
+				limit = {
+					controls_state = 241
+				}
+				country_event = {
+					id = DZD.4
+					days = 4
+				}
+			}
+		}
+	}
+	focus = {
+		id = drozdy_focus_nikitas_war
+		icon = GFX_focus_spa_the_war_of_vengeance
+		cost = 13
+		relative_position_id = drozdy_focus_restore_belarus
+		x = 0
+		y = 2
+		prerequisite = {
+			focus = drozdy_focus_request_gomel
+		}
+		prerequisite = {
+			focus = drozdy_focus_request_mozyr
+		}
+		completion_reward = {
+			add_state_core = 96
+			add_state_core = 206
+			add_state_core = 207
+			create_wargoal = {
+				target = OBR
+				type = take_core_state
+			}
+		}
+	}
+	focus = {
+		id = drozdy_focus_make_belarus_great_again
+		icon = GFX_goal_DZD_make_belarus
+		cost = 12
+		relative_position_id = drozdy_focus_nikitas_war
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = drozdy_focus_nikitas_war
+		}
+		completion_reward = {
+			set_capital = {
+				state = 206
+			}
+			set_cosmetic_tag = DZD_BLR
+		}
+		available = {
+			controls_state = 206
+		}
+	}
+	focus = {
+		id = drozdy_focus_include_vilno_and_belostok
+		icon = GFX_focus_generic_treaty
+		cost = 6
+		relative_position_id = drozdy_focus_request_vilno
+		x = 0
+		y = 1
+		completion_reward = {
+			
+		}
+		prerequisite = {
+			focus = drozdy_focus_request_vilno
+		}
+		available = {
+			controls_state = 97
+			controls_state = 784
+		}
+	}
+	focus = {
+		id = drozdy_focus_request_vilno
+		icon = GFX_goal_generic_occupy_states_ongoing_war
+		cost = x
+		relative_position_id = drozdy_focus_make_belarus_great_again
+		x = 2
+		y = 1
+		prerequisite = {
+			focus = drozdy_focus_make_belarus_great_again
+		}
+		completion_reward = {
+			784 = {
+				transfer_state_to = DZD
+			}
+		}
+		cancel = {
+			controls_state = 784
+		}
+	}
+}

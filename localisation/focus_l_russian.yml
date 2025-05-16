@@ -36,5 +36,8 @@
   drozdy_focus_request_gomel: "Требовать Гомель"
   drozdy_focus_request_gomel_desc: "Не смотря на то что Старый-Свержень был нашим союзником мы не можем закрыть глаза на то что Гомель на ходится в их составе. Нужно не медленно потребовать его назад!"
 
-  drozdy_focus_nikitas_ultimatum: "Ультиматум Никите"
-  drozdy_focus_nikitas_ultimatum_desc: "Остались ключевые регионы Беларуси находящиеся в руках Никиты. Он безумен так что лучше готовится к войне..."
+  drozdy_focus_nikitas_war: "Война с Никитой"
+  drozdy_focus_nikitas_war_desc: "Остались ключевые регионы Беларуси находящиеся в руках Никиты. Он безумен так что лучше сразу готовится к войне..."
+
+  drozdy_focus_make_belarus_great_again: "Воссоздать Беларусь"
+  drozdy_focus_make_belarus_great_again_desc: "Сделаем Беларусь сново великой!"

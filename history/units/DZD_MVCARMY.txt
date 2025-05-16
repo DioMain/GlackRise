@@ -1,5 +1,5 @@
 division_template = {
-	name = "МВД"
+	name = dzd_mvd_divisition
 	regiments = {
 		infantry = {
 			x = 0
@@ -30,38 +30,37 @@ division_template = {
 
 units = {
 	division = {
-		name = "МВД"
+		start_experience_factor = 1
 		location = 11216
-		division_template = "МВД"
+		division_template = dzd_mvd_divisition
 	}
 	division = {
-		name = "МВД"
-		location = 11370
-		division_template = "МВД"
-	}
-	division = {
-		name = "МВД"
-		location = 11370
-		division_template = "МВД"
-	}
-	division = {
-		name = "МВД"
-		location = 11216
-		division_template = "МВД"
-	}
-	division = {
-		name = "МВД"
-		location = 11370
-		division_template = "МВД"
-	}
-	division = {
-		name = "МВД"
-		location = 11216
-		division_template = "МВД"
-	}
-		division = {
-		name = "МВД"
 		location = 360
-		division_template = "МВД"
+		start_experience_factor = 1
+		division_template = dzd_mvd_divisition
+	}
+	division = {
+		location = 3759
+		start_experience_factor = 1
+		division_template = dzd_mvd_divisition
+	}
+	division = {
+		location = 11216
+		start_experience_factor = 1
+		division_template = dzd_mvd_divisition
+	}
+	division = {
+		location = 3759
+		start_experience_factor = 1
+		division_template = dzd_mvd_divisition
+	}
+	division = {
+		location = 11216
+		division_template = dzd_mvd_divisition
+	}
+	division = {
+		start_experience_factor = 1
+		location = 360
+		division_template = dzd_mvd_divisition
 	}
 }

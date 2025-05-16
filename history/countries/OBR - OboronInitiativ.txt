@@ -4,16 +4,33 @@ set_research_slots = 3
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
-	infantry_weapons2 = 1
 	tech_support = 1
 	tech_trucks = 1
+	gw_artillery = 1
 }
+
+load_oob = OBR_START_DIVS
 
 set_politics = {
 	ruling_party = fascism	##Рулевая партия
 	last_election = "1936.1.1"	##Последние выборы (если есть)
 	election_frequency = 48	##Через сколько проводят выборы
 	elections_allowed = no	##Есть ли выборы
+}
+
+add_equipment_to_stockpile = {
+	type = infantry_equipment_1
+	amount = 5000
+}
+
+add_equipment_to_stockpile = {
+	type = support_equipment
+	amount = 1000
+}
+
+add_equipment_to_stockpile = {
+	type = artillery_equipment
+	amount = 1000
 }
 
 set_popularities = {

@@ -11,9 +11,10 @@
  DZD_democratic: "Дрокио"
  DZD_democratic_DEF: "Дрокио"
  DZD_democratic_ADJ: "Дрокиск"
- DZD_fascism_BEL: "Республика беларусь"
- DZD_fascism_BEL_DEF: "Республика беларусь"
- DZD_fascism_BEL_ADJ: "Беларуск"
+
+ DZD_BLR_fascism: "Беларусь"
+ DZD_BLR_fascism_DEF: "Беларусь"
+ DZD_BLR_fascism_ADJ: "Беларуск"
  
  STR_communism: "Старо-сверженский союз"
  STR_communism_DEF: "Старо-сверженский союз"
@@ -49,20 +50,6 @@
  SNC_DEF: "Научная республика"
  SNC_ADJ: "Республиканск"
 
- FIT: "Великий ФИТ"
- FIT_DEF: "Великий ФИТ"
- FIT_ADJ: "ФИТ-ск"
-
- BLD: "Белый фронт"
- BLD_DEF: "Белый фронт"
- BLD_ADJ: "Белодедовск"
-
  MRN: "Республика Мироен" 
  MRN_DEF: "Республика Мироен" 
  MRN_ADJ: "Мироенск" 
-
- DCB: "Пещерная slave`ница"
-
- MGZ: "Копеечный светофор"
-
- TRV: "Виза-трёхлетка"

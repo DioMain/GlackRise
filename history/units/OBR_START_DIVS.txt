@@ -1,0 +1,87 @@
+division_template = {
+	name = obr_oborona_divisition
+	
+	regiments = {
+		infantry = { x = 0  y = 0 }
+		infantry = { x = 1  y = 0 }
+		infantry = { x = 2  y = 0 }
+		infantry = { x = 0  y = 1 }
+		infantry = { x = 1  y = 1 }
+		infantry = { x = 2  y = 1 }
+		artillery = { x = 0 y = 2 }
+	}
+
+	support = {
+		engineer = {
+			x = 0
+			y = 0
+		}
+		recon = {
+			x = 0
+			y = 1
+		}
+	}
+}
+
+units = {
+	division = {
+		location = 11370
+		division_template = obr_oborona_divisition
+		start_experience_factor = 0.6
+	}
+	division = {
+		location = 11370
+		division_template = obr_oborona_divisition
+		start_experience_factor = 0.6
+	}
+	division = {
+		location = 11370
+		division_template = obr_oborona_divisition
+		start_experience_factor = 0.6
+	}
+	division = {
+		location = 11370
+		division_template = obr_oborona_divisition
+		start_experience_factor = 0.6
+	}
+	division = {
+		location = 11370
+		division_template = obr_oborona_divisition
+		start_experience_factor = 0.6
+	}
+	division = {
+		location = 9289
+		division_template = obr_oborona_divisition
+		start_experience_factor = 0.6
+	}
+	division = {
+		location = 9289
+		division_template = obr_oborona_divisition
+		start_experience_factor = 0.6
+	}
+	division = {
+		location = 233
+		division_template = obr_oborona_divisition
+		start_experience_factor = 0.6
+	}
+	division = {
+		location = 11370
+		division_template = obr_oborona_divisition
+		start_experience_factor = 0.6
+	}
+	division = {
+		location = 216
+		division_template = obr_oborona_divisition
+		start_experience_factor = 0.6
+	}
+	division = {
+		location = 216
+		division_template = obr_oborona_divisition
+		start_experience_factor = 0.6
+	}
+	division = {
+		location = 233
+		division_template = obr_oborona_divisition
+		start_experience_factor = 0.6
+	}
+}

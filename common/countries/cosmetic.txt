@@ -1,0 +1,4 @@
+DZD_BLR = {
+	color = rgb { 100 255 100 }
+  color_ui = rgb { 50 255 50 }
+}

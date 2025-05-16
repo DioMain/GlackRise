@@ -34,9 +34,13 @@ country_event = {
 	option = {
 		name = DZD.3.a
 
-		remove_state_core = 97
+		97 = {
+			remove_core_of = DZD
+			add_resistance = 10
+		}
 	}
 }
+
 # Требовать Гомель
 country_event = {
 	id = DZD.4
@@ -61,25 +65,80 @@ country_event = {
 		}
 	}
 }
-# Требовать Гомель (Отказ)
+
+# Требовать Гомель (Принятие)
 country_event = {
 	id = DZD.5
 	title = DZD.5.t
 	is_triggered_only = yes
 	option = {
 		name = DZD.5.a
-		add_state_claim = 241
+		241 = {
+			transfer_state_to = DZD
+		}
 	}
 }
-# Требовать Гомель (Принятие)
+# Требовать Гомель (Отказ)
 country_event = {
 	id = DZD.6
 	title = DZD.6.t
 	is_triggered_only = yes
 	option = {
 		name = DZD.6.a
-		241 = {
-			set_state_controller_to = DZD
+		create_wargoal = {
+			target = STR
+			type = take_core_state
+		}
+	}
+}
+
+
+# Требовать Мозырь
+country_event = {
+	id = DZD.7
+	title = DZD.7.t
+	is_triggered_only = yes
+	option = {
+		name = DZD.7.a
+		DZD = {
+			country_event = {
+				id = DZD.8
+				days = 4
+			}
+		}
+	}
+	option = {
+		name = DZD.7.b
+		DZD = {
+			country_event = {
+				id = DZD.9
+				days = 4
+			}
+		}
+	}
+}
+# Требовать Мозырь (Принятие)
+country_event = {
+	id = DZD.8
+	title = DZD.8.t
+	is_triggered_only = yes
+	option = {
+		name = DZD.8.a
+		194 = {
+			transfer_state_to = DZD
+		}
+	}
+}
+# Требовать Мозырь (Отказ)
+country_event = {
+	id = DZD.9
+	title = DZD.9.t
+	is_triggered_only = yes
+	option = {
+		name = DZD.9.a
+		create_wargoal = {
+			target = DKG
+			type = take_core_state
 		}
 	}
 }

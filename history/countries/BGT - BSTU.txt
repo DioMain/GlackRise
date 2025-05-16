@@ -2,8 +2,6 @@ capital = 815
 
 set_research_slots = 3
 
-load_focus_tree = drozdy_focus
-
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
@@ -15,36 +13,36 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = communism
+	ruling_party = democratic
 }
 
 set_popularities = {
-	democratic = 25
+	democratic = 40
 	neutrality = 0
-	communism = 50
-	fascism = 25
+	communism = 20
+	fascism = 40
 }
 
 create_country_leader = {
-	name = "Окулич Дмитрий"
+	name = "Дмитрий Шиман"
 	desc = ""
-	picture = "gfx/leaders/Okulich.dds"
+	picture = "gfx/leaders/Shiman.dds"
 	expire = "1965.1.1"
-	ideology = marxism
+	ideology = liberalism
 }
 
 create_country_leader = {
-	name = "Юрий Зёнонавич"
+	name = "Николай Белодед"
 	desc = ""
-	picture = "gfx/leaders/Okulich.dds"
+	picture = "gfx/leaders/Belodead.dds"
 	expire = "1965.1.1"
-	ideology = mvd
+	ideology = leninism
 }
 
 create_country_leader = {
-	name = "Kamina Bro"
+	name = "СМЕЛОВ"
 	desc = ""
-	picture = "gfx/leaders/Okulich.dds"
+	picture = "gfx/leaders/Smelov.dds"
 	expire = "1965.1.1"
-	ideology = anime
+	ideology = fascism_ideology
 }

@@ -1,0 +1,29 @@
+DZD_integrate_belastok_vilno = {
+
+	DZD_ibv_integrate_belastok = {
+		icon = GFX_decision_category_generic_political_actions
+
+		fire_only_once = yes
+
+		complete_effect = {
+			97 = {
+				add_core_of = DZD
+			}
+		}
+
+		cost = 100
+	}
+	DZD_ibv_integrate_vilno = {
+		icon = GFX_decision_category_generic_political_actions
+
+		fire_only_once = yes
+
+		complete_effect = {
+			784 = {
+				add_core_of = DZD
+			}
+		}
+
+		cost = 200
+	}
+}
